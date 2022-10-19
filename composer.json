@@ -1,24 +1,47 @@
 {
-  "name": "platformsh/drupal9",
-  "description": "This template builds Drupal 9 for Platform.sh based the \"Drupal Recommended\" Composer project.",
+  "name": "govcms/drupal9",
+  "description": "This template builds the GovCMS Drupal Distribution for Drupal 9 for Platform.sh based on the govCMS/govcms-project Composer project.",
+  "keywords": [
+    "GovCMS"
+  ],
   "type": "project",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://www.drupal.org/project/drupal",
+  "homepage": "https://www.govcms.gov.au",
   "support": {
-    "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
-    "chat": "https://www.drupal.org/node/314178"
+    "docs": "https://docs.platform.sh/"
   },
   "repositories": [
     {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "harvesthq/chosen",
+        "version": "v1.8.7",
+        "type": "drupal-library",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/harvesthq/chosen/releases/download/v1.8.7/chosen_v1.8.7.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "dropzone/dropzone",
+        "version": "v5.7.2",
+        "type": "drupal-library",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/dropzone/dropzone/archive/refs/tags/v5.7.2.zip"
+        }
+      }
     }
   ],
   "require": {
-    "composer/installers": "^1.9",
-    "drupal/core-composer-scaffold": "^9.3",
-    "drupal/core-project-message": "^9.3",
-    "drupal/core-recommended": "^9.3",
+    "govcms/govcms": "~2",
     "drupal/redis": "^1.5",
     "drush/drush": "^11.1",
     "platformsh/config-reader": "^2.4"
@@ -26,23 +49,33 @@
   "conflict": {
     "drupal/drupal": "*"
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "prefer-stable": true,
   "config": {
     "allow-plugins": {
+      "oomphinc/composer-installers-extender": true,
       "composer/installers": true,
       "drupal/core-composer-scaffold": true,
       "drupal/core-project-message": true,
       "dealerdirect/phpcodesniffer-composer-installer": true,
       "cweagans/composer-patches": true
     },
+    "bin-dir": "bin/",
+    "optimize-autoloader": true,
     "sort-packages": true
   },
   "extra": {
     "drupal-scaffold": {
       "locations": {
         "web-root": "web/"
-      }
+      },
+      "initial": {
+        "sites/default/default.services.yml": "sites/default/services.yml",
+        "sites/default/default.settings.php": "sites/default/settings.php"
+      },
+      "excludes": [
+        "sites/development.services.yml"
+      ]
     },
     "installer-paths": {
       "web/core": [
@@ -73,6 +106,7 @@
         "type:drupal-custom-theme"
       ]
     },
+    "enable-patching": true,
     "drupal-core-project-message": {
       "include-keys": [
         "homepage",
@@ -94,5 +128,8 @@
         "      composer remove drupal/core-project-message"
       ]
     }
+  },
+  "scripts": {
+    "nuke": "rm -r -f bin vendor composer.lock web"
   }
 }

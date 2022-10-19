@@ -60,7 +60,6 @@
       "dealerdirect/phpcodesniffer-composer-installer": true,
       "cweagans/composer-patches": true
     },
-    "bin-dir": "bin/",
     "optimize-autoloader": true,
     "sort-packages": true
   },

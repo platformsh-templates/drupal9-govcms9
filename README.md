@@ -43,7 +43,7 @@ This template builds Drupal using the "GovCMS" distribution install profile.
 It is pre-configured to use MariaDB and Redis for caching.
 The Drupal installer will skip asking for database credentials as they are already provided.
 
-* You should choose the "GovCMS" install profile when prompted to by the install wizard during initial setup.
+> You should choose the "GovCMS" install profile when prompted to by the install wizard during initial setup.
 
 ### Features
 
@@ -54,13 +54,12 @@ The Drupal installer will skip asking for database credentials as they are alrea
 - Automatic TLS certificates
 - Composer-based build
 
-Please see `README-platformsh.md` for a full introduction to getting started and using the Platform.sh system, including:
+Please see [`platformsh-templates/drupal9:README.md`](https://github.com/platformsh-templates/drupal9/blob/master/README.md) for a full introduction to getting started and using the Platform.sh system, including:
 
 * Deployment
 * Local Development
 * Migration
 * Troubleshooting
-* and an explanation of how this template was build and what has been added to make Drupal work on Platform.sh environments.
 
 ## About GovCMS
 
@@ -68,13 +67,12 @@ Please see `README-platformsh.md` for a full introduction to getting started and
 
 GovCMS9 Slack channel: https://govcmschat.slack.com/archives/C01BD9B3V5W
 
-Please see `README-govcms.md` for a full introduction to the GovCMS project, including:
+Please see [`govCMS/GovCMS:README.md`](https://github.com/https://github.com/govCMS/GovCMS/blob/2.x-develop/README.md/blob/2.x-develop/README.md) for a full introduction to the GovCMS project, including:
 
-* Deployment
-* Local Development
-* Migration
-* Troubleshooting
-* and an explanation of how this template was build and what has been added to make Drupal work on Platform.sh environments.
+* Installation
+* Troubleshooting and Contributing
+
+> The GovCMS distribution is a deliberately restricted and curated set of modules, and you are advised to read [the guidelines for usage and development published by the maintainers](https://www.govcms.gov.au/support/tech-talk) before modifying things too much.
 
 ## Quickstart
 

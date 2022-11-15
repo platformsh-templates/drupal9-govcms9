@@ -1,6 +1,6 @@
 tests:
     'The homepage should be fast':
-        path: 
+        path:
           - '/'
         assertions:
             - 'main.wall_time <= 250ms'

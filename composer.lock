@@ -3588,16 +3588,16 @@
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.5.8",
+            "version": "9.5.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
-                "reference": "c78779acff7b39fc0f29ff1edd710361c15ed87b"
+                "reference": "08da8e59c6f1bd0b1a58d18f8addc0d937bbacc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/c78779acff7b39fc0f29ff1edd710361c15ed87b",
-                "reference": "c78779acff7b39fc0f29ff1edd710361c15ed87b",
+                "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/08da8e59c6f1bd0b1a58d18f8addc0d937bbacc7",
+                "reference": "08da8e59c6f1bd0b1a58d18f8addc0d937bbacc7",
                 "shasum": ""
             },
             "require": {
@@ -3632,9 +3632,9 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.5.8"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.5.9"
             },
-            "time": "2023-03-09T21:29:23+00:00"
+            "time": "2023-04-30T16:17:33+00:00"
         },
         {
             "name": "drupal/core-recommended",
@@ -15360,16 +15360,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.15.4",
+            "version": "v2.15.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3e059001d6d597dd50ea7c74dd2464b4adea48d3"
+                "reference": "fc02a6af3eeb97c4bf5650debc76c2eda85ac22e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3e059001d6d597dd50ea7c74dd2464b4adea48d3",
-                "reference": "3e059001d6d597dd50ea7c74dd2464b4adea48d3",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/fc02a6af3eeb97c4bf5650debc76c2eda85ac22e",
+                "reference": "fc02a6af3eeb97c4bf5650debc76c2eda85ac22e",
                 "shasum": ""
             },
             "require": {
@@ -15424,7 +15424,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v2.15.4"
+                "source": "https://github.com/twigphp/Twig/tree/v2.15.5"
             },
             "funding": [
                 {
@@ -15436,7 +15436,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-27T12:26:20+00:00"
+            "time": "2023-05-03T17:49:41+00:00"
         },
         {
             "name": "typo3/phar-stream-wrapper",

@@ -1,0 +1,21 @@
+name: GovCMS Security Kit
+type: module
+description: Enhance security of GovCMS websites.
+package: GovCMS
+core_version_requirement: ^9 || ^10
+dependencies:
+  - encrypt
+  - honeypot:honeypot
+  - key
+  - login_security:login_security
+  - password_policy:password_policy
+  - password_policy:password_policy_characters
+  - password_policy:password_policy_character_types
+  - password_policy:password_policy_history
+  - password_policy:password_policy_length
+  - password_policy:password_policy_username
+  - real_aes
+  - seckit:seckit
+  - securitytxt
+  - tfa
+  - username_enumeration_prevention:username_enumeration_prevention

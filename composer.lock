@@ -10672,35 +10672,34 @@
         },
         {
             "name": "league/oauth2-server",
-            "version": "8.5.1",
+            "version": "8.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-server.git",
-                "reference": "43cd4d406906c6be5c8de2cee9bd3ad3753544ef"
+                "reference": "8ab731e84eef904b5913ba31b38116acf8ea50b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-server/zipball/43cd4d406906c6be5c8de2cee9bd3ad3753544ef",
-                "reference": "43cd4d406906c6be5c8de2cee9bd3ad3753544ef",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-server/zipball/8ab731e84eef904b5913ba31b38116acf8ea50b6",
+                "reference": "8ab731e84eef904b5913ba31b38116acf8ea50b6",
                 "shasum": ""
             },
             "require": {
                 "defuse/php-encryption": "^2.3",
-                "ext-json": "*",
                 "ext-openssl": "*",
                 "lcobucci/clock": "^2.2 || ^3.0",
                 "lcobucci/jwt": "^4.3 || ^5.0",
                 "league/event": "^2.2",
                 "league/uri": "^6.7",
                 "php": "^8.0",
-                "psr/http-message": "^1.0.1"
+                "psr/http-message": "^1.0.1 || ^2.0"
             },
             "replace": {
                 "league/oauth2server": "*",
                 "lncd/oauth2": "*"
             },
             "require-dev": {
-                "laminas/laminas-diactoros": "^2.24.0",
+                "laminas/laminas-diactoros": "^3.0.0",
                 "phpstan/phpstan": "^0.12.57",
                 "phpstan/phpstan-phpunit": "^0.12.16",
                 "phpunit/phpunit": "^9.6.6",
@@ -10749,7 +10748,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/oauth2-server/issues",
-                "source": "https://github.com/thephpleague/oauth2-server/tree/8.5.1"
+                "source": "https://github.com/thephpleague/oauth2-server/tree/8.5.2"
             },
             "funding": [
                 {
@@ -10757,7 +10756,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-04-04T10:20:16+00:00"
+            "time": "2023-06-16T15:32:47+00:00"
         },
         {
             "name": "league/uri",

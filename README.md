@@ -8,7 +8,7 @@
 
 <p align="center">
 <a href="https://www.govcms.gov.au/">
-<img src="govcms-logo.png" alt="GovCMS logo"  width="100px"  />
+<img src="header.svg" alt="GovCMS logo" />
 </a>
 </p>
 
@@ -33,7 +33,7 @@
 <br /><br />
 <a href="https://console.platform.sh/projects/create-project/?template=https://raw.githubusercontent.com/platformsh/template-builder/master/templates/drupal9-govcms9/.platform.template.yaml&utm_campaign=deploy_on_platform?utm_medium=button&utm_source=affiliate_links&utm_content=https://raw.githubusercontent.com/platformsh-templates/drupal9/updates/.platform.template.yaml" target="_blank" title="Deploy with Platform.sh"><img src="https://platform.sh/images/deploy/deploy-button-lg-blue.svg" width="175px"></a>
 </p>
-</p>
+
 
 <hr>
 

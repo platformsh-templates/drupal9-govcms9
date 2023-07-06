@@ -2,7 +2,7 @@
 
 ## About GovCMS
 
-<img src="logo.png" alt="GovCMS logo" align="right" width="220px"/>
+<img src="govcms-logo.png" alt="GovCMS logo" align="right" width="220px"/>
 
 GovCMS is the Drupal specific version of the GovCMS distribution.
 

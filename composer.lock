@@ -3184,7 +3184,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0"
             ],
             "authors": [
                 {
@@ -3200,9 +3200,15 @@
                     "homepage": "https://www.drupal.org/user/2713261"
                 }
             ],
+            "description": "Consulation or 'Have your say'",
             "homepage": "https://www.drupal.org/project/consultation",
+            "keywords": [
+                "drupal",
+                "govcms"
+            ],
             "support": {
-                "source": "https://git.drupalcode.org/project/consultation"
+                "source": "http://cgit.drupalcode.org/consultation",
+                "issues": "https://www.drupal.org/project/issues/consultation"
             }
         },
         {

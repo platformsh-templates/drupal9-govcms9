@@ -7213,7 +7213,7 @@
         },
         {
             "name": "drupal/panels_ipe",
-            "version": "4.7.0",
+            "version": "4.8.0",
             "require": {
                 "drupal/core": "^9.2 || ^10",
                 "drupal/jquery_ui_droppable": "*",
@@ -7222,8 +7222,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-4.7",
-                    "datestamp": "1668632919",
+                    "version": "8.x-4.8",
+                    "datestamp": "1718663806",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"

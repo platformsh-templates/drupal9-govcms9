@@ -2713,7 +2713,7 @@
         },
         {
             "name": "drupal/chosen_lib",
-            "version": "4.0.2",
+            "version": "4.0.3",
             "require": {
                 "drupal/chosen": "^4",
                 "drupal/core": "^9.2 || ^10 || ^11"
@@ -2721,8 +2721,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "4.0.2",
-                    "datestamp": "1725278970",
+                    "version": "4.0.3",
+                    "datestamp": "1725307446",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"

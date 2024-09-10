@@ -2812,8 +2812,12 @@
             "authors": [
                 {
                     "name": "JohnAlbin",
-                    "homepage": "https://www.drupal.org/user/32095",
+                    "homepage": "https://www.drupal.org/user/1036766",
                     "email": "virtually.johnalbin@gmail.com"
+                },
+                {
+                    "name": "johnalbin",
+                    "homepage": "https://www.drupal.org/user/32095"
                 },
                 {
                     "name": "robloach",

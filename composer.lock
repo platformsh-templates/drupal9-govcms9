@@ -5813,7 +5813,7 @@
             ],
             "authors": [
                 {
-                    "name": "Cellar Door",
+                    "name": "cellar door",
                     "homepage": "https://www.drupal.org/user/658076"
                 },
                 {
@@ -7948,6 +7948,10 @@
                     "name": "Jeroen Tubex",
                     "homepage": "https://www.drupal.org/u/jeroent",
                     "role": "Maintainer"
+                },
+                {
+                    "name": "benjy",
+                    "homepage": "https://www.drupal.org/user/1852732"
                 },
                 {
                     "name": "jeroent",

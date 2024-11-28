@@ -9580,42 +9580,9 @@
             },
             "type": "drupal-profile",
             "extra": {
-                "drupal-scaffold": {
-                    "locations": {
-                        "web-root": "web/"
-                    }
-                },
-                "installer-paths": {
-                    "web/core": [
-                        "type:drupal-core"
-                    ],
-                    "web/libraries/{$name}": [
-                        "type:drupal-library"
-                    ],
-                    "web/modules/contrib/{$name}": [
-                        "type:drupal-module"
-                    ],
-                    "web/profiles/contrib/{$name}": [
-                        "type:drupal-profile"
-                    ],
-                    "web/themes/contrib/{$name}": [
-                        "type:drupal-theme"
-                    ],
-                    "drush/Commands/contrib/{$name}": [
-                        "type:drupal-drush"
-                    ],
-                    "web/modules/custom/{$name}": [
-                        "type:drupal-custom-module"
-                    ],
-                    "web/themes/custom/{$name}": [
-                        "type:drupal-custom-theme"
-                    ]
-                },
-                "enable-patching": true,
-                "composer-exit-on-patch-failure": true,
                 "patches": {
-                    "drupal/login_security": {
-                        "Correctly detect invalid username/password or blocked account login errors - https://www.drupal.org/project/login_security/issues/3292974": "https://www.drupal.org/files/issues/2023-02-14/login_security-3292974-21.patch"
+                    "drupal/tfa": {
+                        "Create Email one-time-code Validation Plugin & related Setup Plugin - https://www.drupal.org/project/tfa/issues/2930541": "https://www.drupal.org/files/issues/2022-11-23/tfa-2930541-54_2.patch"
                     },
                     "drupal/metatag": {
                         "Unsetting metatags": "https://www.drupal.org/files/issues/2022-03-15/metatag-unset-2735195.patch"
@@ -9623,10 +9590,43 @@
                     "drupal/securitytxt": {
                         "Config variable contact_page_url doesn't exist in Form- https://www.drupal.org/project/securitytxt/issues/3292099": "https://www.drupal.org/files/issues/2022-06-23/3292099-config-variable-contactpageurl.patch"
                     },
-                    "drupal/tfa": {
-                        "Create Email one-time-code Validation Plugin & related Setup Plugin - https://www.drupal.org/project/tfa/issues/2930541": "https://www.drupal.org/files/issues/2022-11-23/tfa-2930541-54_2.patch"
+                    "drupal/login_security": {
+                        "Correctly detect invalid username/password or blocked account login errors - https://www.drupal.org/project/login_security/issues/3292974": "https://www.drupal.org/files/issues/2023-02-14/login_security-3292974-21.patch"
                     }
-                }
+                },
+                "drupal-scaffold": {
+                    "locations": {
+                        "web-root": "web/"
+                    }
+                },
+                "enable-patching": true,
+                "installer-paths": {
+                    "web/core": [
+                        "type:drupal-core"
+                    ],
+                    "web/libraries/{$name}": [
+                        "type:drupal-library"
+                    ],
+                    "web/themes/custom/{$name}": [
+                        "type:drupal-custom-theme"
+                    ],
+                    "web/modules/custom/{$name}": [
+                        "type:drupal-custom-module"
+                    ],
+                    "web/themes/contrib/{$name}": [
+                        "type:drupal-theme"
+                    ],
+                    "web/modules/contrib/{$name}": [
+                        "type:drupal-module"
+                    ],
+                    "web/profiles/contrib/{$name}": [
+                        "type:drupal-profile"
+                    ],
+                    "drush/Commands/contrib/{$name}": [
+                        "type:drupal-drush"
+                    ]
+                },
+                "composer-exit-on-patch-failure": true
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [

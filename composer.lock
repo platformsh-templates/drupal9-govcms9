@@ -7113,10 +7113,10 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-4.4",
-                    "datestamp": "1588097387",
+                    "datestamp": "1744820597",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "revoked",
+                        "message": "Project has been unsupported by the Drupal Security Team"
                     }
                 },
                 "branch-alias": {
@@ -7151,10 +7151,6 @@
                 {
                     "name": "See other contributors",
                     "homepage": "https://www.drupal.org/node/1072922/committers"
-                },
-                {
-                    "name": "phenaproxima",
-                    "homepage": "https://www.drupal.org/user/205645"
                 }
             ],
             "description": "Allow any entity view mode to be rendered using a Panels display.",
